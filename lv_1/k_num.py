@@ -24,5 +24,6 @@ def solution1(array, commands):
     for command in commands :
         i,j,k = command             #리스트 값을 하나씩 저장 가능
         answer.append(list(sorted(array[i-1:j]))[k-1])
+        print(answer)
     return answer
 
